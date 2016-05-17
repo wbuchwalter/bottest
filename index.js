@@ -2,7 +2,6 @@ var restify = require('restify');
 var msRest = require('ms-rest');
 var connector = require('botconnector');
  
-
 // Initialize server
 var server = restify.createServer();
 server.use(restify.authorizationParser());
