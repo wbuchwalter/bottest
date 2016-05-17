@@ -11,7 +11,6 @@ var appId = 'wbvsts';
 var appSecret = 'cfe4dcfa91bc422a9a3f03ac7c5bb062';
 var credentials = new msRest.BasicAuthenticationCredentials(appId, appSecret);
 
-
 // Handle incoming message
 server.post('/v1/messages', function (req, res) {
     var msg = req.body;
