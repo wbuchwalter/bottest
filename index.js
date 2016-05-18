@@ -49,7 +49,7 @@ function verifyBotFramework(credentials) {
             res.send(403);
         }
     };
-}
+} 
 
 // Helper function to send a Bot originated message to the user. 
 function sendMessage(msg, cb) {
